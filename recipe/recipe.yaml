@@ -11,7 +11,7 @@ source:
     sha256: 28235956ba71b3d2d2a9498ce5f6d710064501995bc90d61da66b0e1a9a79434
 
 build:
-  number: 0
+  number: 1
   script: ${{ PYTHON }} -m pip install .
   python:
     entry_points:
@@ -27,7 +27,7 @@ requirements:
     - python >=${{ python_min }}
     - anyio <5,>=4.13.0
     - cyclopts <5,>=4.10.2
-    - textual-diff-view <1,>=0.1.4
+    - textual-diff-view <1,>=0.1.5
     - git
 
 tests:
@@ -51,3 +51,4 @@ about:
 extra:
   recipe-maintainers:
     - apcamargo
+    - davidbrochart

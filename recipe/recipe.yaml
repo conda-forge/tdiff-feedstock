@@ -1,5 +1,5 @@
 context:
-  version: "0.3.2"
+  version: "0.4.0"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/t/tdiff/tdiff-${{ version }}.tar.gz
-    sha256: cb533f3cd9047de92e4fe8ff3d17df202a57b22b4a300cb0e1c3c03184630a88
+    sha256: 28235956ba71b3d2d2a9498ce5f6d710064501995bc90d61da66b0e1a9a79434
 
 build:
   number: 0
